@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="header">
+            <h2>Company Metrics</h2>
+        </div>
+
+        <div class="metrics-row">
+            <div class="metric-block">
+                <div class="green-bg"></div>
+                <div id="green-number-block" class="metric-number">$406,411.29</div>
+                <div class="metric-description">Total Revenue</div>
+            </div>
+            <div class="metric-block">
+                <div class="green-bg"></div>
+                <div class="metric-number">$620</div>
+                <div class="metric-description">Total Job Avg</div>
+            </div>
+            <div class="metric-block">
+                <div class="green-bg"></div>
+                <div class="metric-number">655</div>
+                <div class="metric-description">Tickets Created</div>
+            </div>
+            <div class="metric-block">
+                <div class="green-bg"></div>
+                <div class="metric-number">735</div>
+                <div class="metric-description">Tickets Scheduled</div>
+            </div>
+        </div>
+
+        <div class="metrics-row">
+            <div class="metric-block">
+                <div class="green-bg"></div>
+                <div class="metric-number">$110,448.8</div>
+                <div class="metric-description">Outstanding Amount</div>
+            </div>
+            <div class="metric-block">
+                <div class="green-bg"></div>
+                <div class="metric-number">105</div>
+                <div class="metric-description">Memberships Sold</div>
+            </div>
+            <div class="metric-block">
+                <div class="green-bg"></div>
+                <div class="metric-number">438</div>
+                <div class="metric-description">Jobs Completed</div>
+            </div>
+            <div class="metric-block">
+                <div class="green-bg"></div>
+                <div class="metric-number">65</div>
+                <div class="metric-description">Total Cancel</div>
+            </div>
+            
+        </div>
+        <div class="graph-container">
+            <div class="bar-graph">
+                <h3>Revenue by Job Locations</h3>
+                <img src="revenue_by_job_locations.png" alt="Revenue by Job Locations" class="bar-chart-image">
+                <p>November</p>
+            </div>
+
+            <div class="bar-graph">
+                <h3>Revenue by Job Type</h3>
+                <img src="revenue_by_job_type.png" alt="Revenue by Job Type" class="bar-chart-image">
+                <p>November</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
