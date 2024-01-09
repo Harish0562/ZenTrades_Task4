@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #333; /* Light dark color */
+    background-color: #333; 
     color: white;
 }
 
 .login-container {
-    background-color: #111; /* Dark black color */
+    background-color: #111; 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -40,7 +40,7 @@ input {
 }
 
 button {
-    background-color: #4caf50; /* Green color */
+    background-color: #4caf50; 
     color: white;
     padding: 10px;
     border: none;
@@ -54,12 +54,12 @@ button:hover {
 }
 
 .forgot-password {
-    color: #007BFF; /* Blue color for links */
+    color: #007BFF; 
     text-decoration: none;
     display: block;
 }
 
 .forgot-password:hover {
     text-decoration: underline;
-    color: #0056b3; /* Darker blue color for hover */
+    color: #0056b3; 
 }
