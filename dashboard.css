@@ -20,14 +20,14 @@ body {
 
 .metric-block {
     background-color: #fff;
-    padding: 10px; /* Adjust based on your layout preference */
+    padding: 10px; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 18%; /* Adjust based on your layout preference */
+    width: 18%; 
     text-align: left;
-    position: relative; /* Relative positioning for the green/red stripe */
-    overflow: hidden; /* Hide overflow to prevent curved border from appearing outside the block */
-    margin: 10px; /* Adjust margin for gap between blocks */
+    position: relative; 
+    overflow: hidden; 
+    margin: 10px; 
 }
 
 .green-bg {
@@ -35,10 +35,10 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 10px; /* Adjust width of the green stripe */
-    background-color: #4caf50; /* Green color for the stripe */
-    border-top-left-radius: 8px; /* Rounded border for the top-left corner */
-    border-bottom-left-radius: 8px; /* Rounded border for the bottom-left corner */
+    width: 10px; 
+    background-color: #4caf50; 
+    border-top-left-radius: 8px; 
+    border-bottom-left-radius: 8px; 
 }
 
 .red-bg {
@@ -46,14 +46,14 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 20px; /* Adjust width of the red stripe */
-    background-color: #ff0000; /* Red color for the stripe */
-    border-top-left-radius: 8px; /* Rounded border for the top-left corner */
-    border-bottom-left-radius: 8px; /* Rounded border for the bottom-left corner */
+    width: 20px; 
+    background-color: #ff0000; 
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px; 
 }
 
 .metric-number {
-    font-size: 15px; /* Adjust font size for numbers */
+    font-size: 15px; 
     margin-top: 5px;
     margin-left: 5px;
 }
@@ -63,10 +63,10 @@ body {
 .metric-description {
     margin-top: 5px;
     margin-left: 5px;
-    color: #666; /* Darker gray color for description */
+    color: #666; 
 }
 
-/* Existing styles remain unchanged */
+
 
 .graph-container {
     display: flex;
@@ -79,15 +79,15 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 48%; /* Adjust based on your layout preference */
+    width: 48%; 
     text-align: center;
-    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-y: auto; 
 }
 
 .bar-chart-image {
-    max-width: 100%; /* Ensure the image doesn't exceed the container width */
-    height: auto; /* Maintain image aspect ratio */
-    margin-bottom: 10px; /* Add some gap between the image and the paragraph */
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 10px; 
 }
 
 .bar-graph h3 {
@@ -96,5 +96,5 @@ body {
 
 .bar-graph p {
     margin-top: 10px;
-    color: #666; /* Darker gray color for description */
+    color: #666; 
 }
